@@ -1,0 +1,5 @@
+body  main .wrapper a img{
+    display: block;
+    background-color: gray;
+    margin: 0 auto;
+}    

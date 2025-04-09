@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Mistral';
+    src: local('Mistral'),
+    url(/fonts/mistral.ttf);
+    }
+
+body{
+    background: url(/img/jGlzr.png) repeat;
+    background-color: #B9E0E0;
+    font-family: 'Mistral';
+    font-size: 36px;
+    width: 100%;
+}
+
+
+
+
+.wrapper .nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style:none;
+    
+    margin:100px 50px 50px 1200px;
+    
+    
+}
+
+.wrapper .nav ul li{
+    text-decoration: none;
+   
+    background-color: #B9E0E0;
+}
+.form_select .form{
+    background-color: #B9E0E0;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+}
+
+.wrapper .title h1{
+    position: absolute;
+    width: 327px;
+    height: 83px;
+    left: 136px;
+    top: 228px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 72px;
+    
+    color: #000000;
+
+}
+
+.wrapper .title p{
+    position: absolute;
+    width: 488px;
+    height: 182px;
+    left: 121px;
+    top: 350px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+    
+}
+
+.catalog h1{
+    text-align: center;
+    font-family: Mistral;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #000000;
+}
+
+body section .part-1 {
+    display: flex;
+    
+
+}
+
+body section .part-2 {
+    display: flex;
+}
+
+body section .part-1 .card{
+    background-color: #2CC3D8;
+    width: 320px;
+    height: 440px;
+    margin: 0 auto;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 5px 5px 5px 5px #2CC3D8;
+    
+}
+
+
+body section .part-1 .card img{
+    height: 225px;
+    width: 225px;
+    border-radius: 10px 0 10px 0;
+    margin: 50px 50px auto 50px;
+
+   
+}
+body section .part-1 .card img:hover{
+    box-shadow: 8px 8px 8px 8px gray;
+}
+body section .part-1 .card h2{
+    text-align: center;
+    font-family: Mistral;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+body section .part-1 .card a{
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 180px;
+    border: 2px solid teal;
+    border-radius: 5px 0 5px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: teal;
+    
+}    
+
+
+
+body section .part-1 .card a:hover{
+    border: 2px double white;
+    color: white;
+}
+
+
+
+body section .part-2 .card{
+    background-color: #2CC3D8;
+    width: 320px;
+    height: 440px;
+    margin: 0 auto;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 5px 5px 5px 5px #2CC3D8;
+    margin-top: 140px;
+    margin-bottom: 150px;
+}
+
+body section .part-2 .card img{
+    height: 225px;
+    width: 225px;
+    border-radius: 10px 0 10px 0;
+    margin: 50px 50px auto 50px;
+}
+body section .part-2 .card img:hover{
+    box-shadow: 8px 8px 8px 8px gray;
+}
+body section .part-2 .card h2{
+    text-align: center;
+    font-family: Mistral;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+body section .part-2 .card a{
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left: 180px;
+    border: 2px solid teal;
+    border-radius: 5px 0 5px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: teal;
+
+}    
+
+body section .part-2 .card a:hover{
+    border: 2px double white;
+    color: white;
+}
+
+footer{
+    display: flex;
+  
+}
+
+footer .footer ul{
+    list-style: none;
+    margin-left: 100px;
+}
+
+footer .footer ul li h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+footer .footer ul li{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
